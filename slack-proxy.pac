@@ -11,7 +11,7 @@ function FindProxyForURL(url, host) {
     ) {        
         // Use SOCK proxy, or fall back to a DIRECT traffic.
         // ssh -D 8000 [user]@[server]
-        return "SOCKS 178.165.19.240:31386; DIRECT";
+        return "SOCKS 79.110.22.15:1085; DIRECT";
     }
 
     return "DIRECT";
